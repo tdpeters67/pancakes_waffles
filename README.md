@@ -1,1 +1,1 @@
-# pancakes_waffles
+# pancakes-waffles
