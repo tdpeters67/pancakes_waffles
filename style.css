@@ -1,7 +1,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 .header,
@@ -53,24 +53,28 @@ a {
 .section-one {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     background-color: #1f2937;
+    gap: 100px;
+
 }
 
-.section-one-text {
-    width: 300px;
-    height: 255px;
-    
-}
 
 .section-one-image {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: grey;
-    width: 400px;
-    height: 175px;
+    width: 200px;
+    height: auto;
 
+}
+
+.section-one-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
 }
 .section-one-h1 {
     color: #F9FAF8;
@@ -83,6 +87,16 @@ a {
     font-weight: lighter;
 }
 
+.section-one-button {
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    background-color:#3882F6;
+    color: #E5E7Eb;
+    font-weight: bold;
+    border: 2px solid #3882F6;
+}
+
 
 .section-two-h1 {
     display: flex;
@@ -90,11 +104,12 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    margin-top: 50px;
 }
 
 .b1container {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,37 +117,63 @@ a {
     border-color: blue;
     background-color: #1f2937;
 }
+
+.b1container:hover {
+    width: 250px;
+    height: 250px;
+}
 .boxinfo {
     font-size: 18px;
     color: #1F2937;
+    font-weight: lighter;
+    width:150px;
+    text-align: center;
 }
 
 .section-two-box-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: 5px solid #3882F6;
 
+}
+
+.section-two-box-image:hover {
+    width: 250px;
+    height: 250px;
 }
 .boxes {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 100px;
     margin-top: 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .section-three {
     margin-top: 50px;
-   
     background-color: #E5E7Eb;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 400px;
+    gap: 25px;
 }
 
 .section-three-quote {
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     font-weight: lighter;
+    overflow: scroll;
+    width: 50%;
+    height: 50%;
     color: #1F2937;
 }
 .section-three-quoter {
