@@ -22,13 +22,13 @@ body {
 
 .section-one {
     padding: 3% 15%;
-    width: 80%
+    width: auto
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
-    padding-left: 50px;
+    padding-left: 250px;
 }
 
 .links {
