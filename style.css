@@ -1,0 +1,13 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.header,
+.footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 7%;
+    background-color: #1f2937; 
+}
